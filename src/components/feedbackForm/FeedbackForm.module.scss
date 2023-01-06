@@ -1,0 +1,75 @@
+.contactsContainer{
+  background-color: #0c0f16;
+  border-top: 2px solid #292c33;
+  padding-bottom: 20px;
+
+
+
+
+}
+.contactsBlock{
+  flex-direction: column;
+  justify-content: center;
+
+}
+.formContainer{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+}
+.button{
+  height: 50px;
+  justify-self: end;
+  color: #fff;
+  background-color: #0c0f16;
+  padding: 8px 40px;
+  border: 1px solid #fff;
+  overflow: hidden;
+  cursor: pointer;
+  margin-top: 15px;
+
+}
+.title{
+  background-color: #ffcece;
+}
+.formBlock{
+  width: 500px;
+}
+.formContainer input{
+  margin-bottom: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom-color: #3b3d43;
+  background-color: inherit;
+  outline: none;
+  color: white;
+  padding: 10px 0 10px 0;
+  font-size: 15px;
+}
+input:-webkit-autofill {
+  transition: all 5000s ease-in-out 0s;
+}
+.formContainer textarea{
+  padding: 15px;
+  min-height: 140px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  margin-top: 30px;
+  outline: none;
+  background-color: inherit;
+  color: white;
+  font-size: 15px;
+  margin-bottom: 10px
+}
+
+.errorMessage {
+  color: red;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 660px){
+  .formBlock{
+    width: 100%;
+  }
+}
