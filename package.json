@@ -1,5 +1,6 @@
 {
   "name": "form-feedback",
+  "homepage": "https://grinevichd.github.io/form-feedback",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
